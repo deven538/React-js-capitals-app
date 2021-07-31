@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  min-height: 30vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.countries {
+  display: flex;
+  flex-direction: row;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.options-container {
+  outline: none;
+  border-radius: 0px;
+}
+
+.description {
+  margin-left: 5px;
+}
