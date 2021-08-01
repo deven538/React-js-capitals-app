@@ -36,11 +36,6 @@ class Capitals extends Component {
     activeCapitalId: countryAndCapitalsList[0].id,
   }
 
-  renderAnswer = () => {
-    const {answer} = this.state
-    return <h1 className="heading">{answer}</h1>
-  }
-
   updateCapital = event => {
     const capital = event.target.value
 
